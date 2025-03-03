@@ -1,7 +1,7 @@
 <?php
 
 class TableController extends BaseController {
-    public function welcome() {
+    public function showTable() {
         $this->view('table-list/table-list');
     }
 }

@@ -8,6 +8,6 @@ require_once "Controllers/TableController.php";
 
 $route = new Router();
 $route->get("/", [WelcomeController::class, 'welcome']);
-$route->get("/table-list", [TableController::class, 'table-list']);
+$route->get("/table-list", [TableController::class, 'showTable']);
 
 $route->route();
