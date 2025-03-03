@@ -8,7 +8,7 @@
     <h1>Welcome to PHP</h1>
 </div>
 <?php 
-// else: 
-//     $this->redirect("/users/login"); 
-// endif;   
+else: 
+    $this->redirect("/users/login"); 
+endif;   
 ?>
